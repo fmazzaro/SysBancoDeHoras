@@ -1,0 +1,5 @@
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb

@@ -1,0 +1,5 @@
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.dll.config
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.dll
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.pdb
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.dll
+C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.pdb

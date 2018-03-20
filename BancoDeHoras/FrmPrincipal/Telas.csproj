@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{931EC53D-DDFD-4F5D-970C-D83015FF3991}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrmPrincipal</RootNamespace>
+    <AssemblyName>FrmPrincipal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcaoNaTela.cs" />
+    <Compile Include="FrmFuncionarioAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFuncionarioAlterar.Designer.cs">
+      <DependentUpon>FrmFuncionarioAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFuncionarioConsultarExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFuncionarioConsultarExcluir.Designer.cs">
+      <DependentUpon>FrmFuncionarioConsultarExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoraFuncionarioAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoraFuncionarioAlterar.Designer.cs">
+      <DependentUpon>frmHoraFuncionarioAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHoraFuncionarioAlterarCadastrarExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHoraFuncionarioAlterarCadastrarExcluir.Designer.cs">
+      <DependentUpon>FrmHoraFuncionarioAlterarCadastrarExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHoraFuncionarioRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHoraFuncionarioRelatorio.Designer.cs">
+      <DependentUpon>FrmHoraFuncionarioRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoginCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginCrud.Designer.cs">
+      <DependentUpon>FrmLoginCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLojaCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLojaCrud.Designer.cs">
+      <DependentUpon>FrmLojaCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFuncionarioCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFuncionarioCadastrar.Designer.cs">
+      <DependentUpon>FrmFuncionarioCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmFuncionarioAlterar.resx">
+      <DependentUpon>FrmFuncionarioAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFuncionarioConsultarExcluir.resx">
+      <DependentUpon>FrmFuncionarioConsultarExcluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoraFuncionarioAlterar.resx">
+      <DependentUpon>frmHoraFuncionarioAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHoraFuncionarioAlterarCadastrarExcluir.resx">
+      <DependentUpon>FrmHoraFuncionarioAlterarCadastrarExcluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHoraFuncionarioRelatorio.resx">
+      <DependentUpon>FrmHoraFuncionarioRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginCrud.resx">
+      <DependentUpon>FrmLoginCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLojaCrud.resx">
+      <DependentUpon>FrmLojaCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFuncionarioCadastrar.resx">
+      <DependentUpon>FrmFuncionarioCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{a3c10666-a42a-4be2-903a-804d6a29eb7e}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
+      <Project>{e680b0bd-e2be-4960-8a59-7788a94f8ee2}</Project>
+      <Name>ObjetoTransferencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
