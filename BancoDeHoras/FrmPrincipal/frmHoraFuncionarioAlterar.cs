@@ -35,16 +35,21 @@ namespace FrmPrincipal
                 txtIdaAlmoco.Text = hf.ida_almoco.ToString();
                 txtVoltaAlmoco.Text = hf.volta_almoco.ToString();
                 txtSaida.Text = hf.saida.ToString();
+                if (hf.justificado)
+                    rdbJustSim.Checked = true;
+                else
+                    rdbJustNao.Checked = true;
 
                 if (hf.folga)
                     rdbSim.Checked = true;
                 else
                     rdbNao.Checked = true;
 
-                if (hf.qtdHora % 60 == 0)
-                    cmbHoraUtil.Text = "7";
-                else
-                    cmbHoraUtil.Text = "6";
+                cmbHoraUtil.Text = TimeSpan.FromMinutes(Convert.ToDouble(hf.qtdHora)).ToString(@"hh\:mm");
+                //if (hf.qtdHora % 60 == 0)
+                //    cmbHoraUtil.Text = "7";
+                //else
+                //    cmbHoraUtil.Text = "6";
 
                 txtObs.Text = hf.obs;
             }
@@ -72,7 +77,17 @@ namespace FrmPrincipal
                 if (txtSaida.Text != "")
                     horaFunc.saida = TimeSpan.Parse(txtSaida.Text);
 
-                horaFunc.qtdHora = Convert.ToInt32(cmbHoraUtil.Text);
+                double min = TimeSpan.Parse(cmbHoraUtil.Text).TotalMinutes;
+
+                horaFunc.qtdHora = Convert.ToInt32(min);
+
+                if(rdbJustSim.Checked || rdbJustNao.Checked)
+                {
+                    if(rdbJustNao.Checked)
+                        horaFunc.justificado = false;
+                    else
+                        horaFunc.justificado = true;
+                }
 
                 if(rdbNao.Checked || rdbSim.Checked)
                 {

@@ -51,7 +51,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtObs = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rdbJustNao = new System.Windows.Forms.RadioButton();
+            this.rdbJustSim = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtNomeLoja
@@ -73,7 +77,7 @@
             this.txtEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEntrada.Location = new System.Drawing.Point(21, 109);
             this.txtEntrada.Name = "txtEntrada";
-            this.txtEntrada.Size = new System.Drawing.Size(55, 22);
+            this.txtEntrada.Size = new System.Drawing.Size(59, 22);
             this.txtEntrada.TabIndex = 0;
             // 
             // txtIdaAlmoco
@@ -81,7 +85,7 @@
             this.txtIdaAlmoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdaAlmoco.Location = new System.Drawing.Point(101, 109);
             this.txtIdaAlmoco.Name = "txtIdaAlmoco";
-            this.txtIdaAlmoco.Size = new System.Drawing.Size(54, 22);
+            this.txtIdaAlmoco.Size = new System.Drawing.Size(59, 22);
             this.txtIdaAlmoco.TabIndex = 1;
             // 
             // txtVoltaAlmoco
@@ -89,7 +93,7 @@
             this.txtVoltaAlmoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVoltaAlmoco.Location = new System.Drawing.Point(180, 110);
             this.txtVoltaAlmoco.Name = "txtVoltaAlmoco";
-            this.txtVoltaAlmoco.Size = new System.Drawing.Size(61, 22);
+            this.txtVoltaAlmoco.Size = new System.Drawing.Size(59, 22);
             this.txtVoltaAlmoco.TabIndex = 2;
             // 
             // txtSaida
@@ -104,11 +108,11 @@
             // 
             this.cmbHoraUtil.FormattingEnabled = true;
             this.cmbHoraUtil.Items.AddRange(new object[] {
-            "6",
-            "7"});
+            "9:45",
+            "5:00"});
             this.cmbHoraUtil.Location = new System.Drawing.Point(21, 203);
             this.cmbHoraUtil.Name = "cmbHoraUtil";
-            this.cmbHoraUtil.Size = new System.Drawing.Size(55, 21);
+            this.cmbHoraUtil.Size = new System.Drawing.Size(67, 21);
             this.cmbHoraUtil.TabIndex = 5;
             // 
             // dtpDataEntrada
@@ -124,7 +128,7 @@
             this.groupBox1.Controls.Add(this.rdbSim);
             this.groupBox1.Location = new System.Drawing.Point(222, 229);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(99, 89);
+            this.groupBox1.Size = new System.Drawing.Size(104, 42);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Folga";
@@ -132,7 +136,7 @@
             // rdbNao
             // 
             this.rdbNao.AutoSize = true;
-            this.rdbNao.Location = new System.Drawing.Point(11, 52);
+            this.rdbNao.Location = new System.Drawing.Point(54, 19);
             this.rdbNao.Name = "rdbNao";
             this.rdbNao.Size = new System.Drawing.Size(45, 17);
             this.rdbNao.TabIndex = 1;
@@ -260,11 +264,45 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Obsevação";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rdbJustNao);
+            this.groupBox2.Controls.Add(this.rdbJustSim);
+            this.groupBox2.Location = new System.Drawing.Point(222, 275);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(104, 43);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Justificado?";
+            // 
+            // rdbJustNao
+            // 
+            this.rdbJustNao.AutoSize = true;
+            this.rdbJustNao.Location = new System.Drawing.Point(54, 19);
+            this.rdbJustNao.Name = "rdbJustNao";
+            this.rdbJustNao.Size = new System.Drawing.Size(45, 17);
+            this.rdbJustNao.TabIndex = 1;
+            this.rdbJustNao.TabStop = true;
+            this.rdbJustNao.Text = "Não";
+            this.rdbJustNao.UseVisualStyleBackColor = true;
+            // 
+            // rdbJustSim
+            // 
+            this.rdbJustSim.AutoSize = true;
+            this.rdbJustSim.Location = new System.Drawing.Point(11, 19);
+            this.rdbJustSim.Name = "rdbJustSim";
+            this.rdbJustSim.Size = new System.Drawing.Size(42, 17);
+            this.rdbJustSim.TabIndex = 0;
+            this.rdbJustSim.TabStop = true;
+            this.rdbJustSim.Text = "Sim";
+            this.rdbJustSim.UseVisualStyleBackColor = true;
+            // 
             // frmHoraFuncionarioAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 338);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtObs);
             this.Controls.Add(this.label8);
@@ -293,6 +331,8 @@
             this.Load += new System.EventHandler(this.frmHoraFuncionarioAlterar_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -323,5 +363,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtObs;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton rdbJustNao;
+        private System.Windows.Forms.RadioButton rdbJustSim;
     }
 }

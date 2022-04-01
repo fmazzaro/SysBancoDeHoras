@@ -56,23 +56,14 @@ namespace FrmPrincipal
         {
             try
             {
-                if(cmbFuncao.Text.ToUpper() != "GERENTE" && cmbGerente.Text == "")
-                {
-                    MessageBox.Show("Pro favor, selecione o gerente!");
-                }
-                else
-                {
-
                     Funcionario funcionario = new Funcionario();
+                    funcionarioNegocio = new FuncionarioNegocio();
 
-
+                    funcionario.id_Gerente = 2;
                     funcionario.nome = txtNome.Text;
                     funcionario.cpf = txtCpf.Text;
                     funcionario.funcao = cmbFuncao.Text;
                     funcionario.id_Loja = Convert.ToInt32(cmbLoja.SelectedValue);
-
-                    if (cmbGerente.Text != "")
-                        funcionario.id_Gerente = FuncionarioGerenteCombo.func.id_Func;
 
 
                     if (rdtFeminino.Checked == true || rdtMasculino.Checked == true)
@@ -94,8 +85,7 @@ namespace FrmPrincipal
                     if (resultado == DialogResult.No)
                         LimparCampos();
 
-                }
-
+ 
 
 
             }
@@ -119,21 +109,7 @@ namespace FrmPrincipal
 
         private void cmbGerente_Click(object sender, EventArgs e)
         {
-            try
-            {
-                funcionarioNegocio = new FuncionarioNegocio();
 
-                funcGerenteCombo = funcionarioNegocio.NomeGerenteCombo(Convert.ToInt32(cmbLoja.SelectedValue));
-                // MessageBox.Show("erro " + funcionarioNegocio.NomeGerenteCombo(Convert.ToInt32(cmbLoja.SelectedValue)));
-                cmbGerente.Text = funcGerenteCombo.nome;
-            }
-            catch (Exception)
-            {
-
-                MessageBox.Show("erro: Loja sem gerente");
-                cmbGerente.Text = "";
-            } 
-            
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

@@ -63,8 +63,12 @@
             this.btnImprimir = new System.Windows.Forms.Button();
             this.txtObs = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rdbJustNao = new System.Windows.Forms.RadioButton();
+            this.rdbJustSim = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmbLoja
@@ -152,7 +156,7 @@
             this.txtHoraSaida.Name = "txtHoraSaida";
             this.txtHoraSaida.Size = new System.Drawing.Size(45, 20);
             this.txtHoraSaida.TabIndex = 6;
-            this.txtHoraSaida.Text = "18:00";
+            this.txtHoraSaida.Text = "17:30";
             // 
             // label7
             // 
@@ -169,7 +173,7 @@
             this.txtHoraEntrada.Name = "txtHoraEntrada";
             this.txtHoraEntrada.Size = new System.Drawing.Size(45, 20);
             this.txtHoraEntrada.TabIndex = 3;
-            this.txtHoraEntrada.Text = "10:00";
+            this.txtHoraEntrada.Text = "07:00";
             // 
             // txtIdaAlmoco
             // 
@@ -177,7 +181,7 @@
             this.txtIdaAlmoco.Name = "txtIdaAlmoco";
             this.txtIdaAlmoco.Size = new System.Drawing.Size(45, 20);
             this.txtIdaAlmoco.TabIndex = 4;
-            this.txtIdaAlmoco.Text = "14:00";
+            this.txtIdaAlmoco.Text = "12:00";
             // 
             // txtVoltaAlmoco
             // 
@@ -185,18 +189,20 @@
             this.txtVoltaAlmoco.Name = "txtVoltaAlmoco";
             this.txtVoltaAlmoco.Size = new System.Drawing.Size(45, 20);
             this.txtVoltaAlmoco.TabIndex = 5;
-            this.txtVoltaAlmoco.Text = "15:00";
+            this.txtVoltaAlmoco.Text = "12:45";
             // 
             // cmbHoraUtil
             // 
             this.cmbHoraUtil.FormattingEnabled = true;
             this.cmbHoraUtil.Items.AddRange(new object[] {
-            "6",
-            "7"});
+            "9:45",
+            "5:00"});
             this.cmbHoraUtil.Location = new System.Drawing.Point(104, 301);
             this.cmbHoraUtil.Name = "cmbHoraUtil";
             this.cmbHoraUtil.Size = new System.Drawing.Size(59, 21);
             this.cmbHoraUtil.TabIndex = 7;
+            this.cmbHoraUtil.Text = "09:45";
+            this.cmbHoraUtil.SelectedIndexChanged += new System.EventHandler(this.cmbHoraUtil_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -219,9 +225,9 @@
             // 
             // btnInserir
             // 
-            this.btnInserir.Location = new System.Drawing.Point(27, 377);
+            this.btnInserir.Location = new System.Drawing.Point(169, 416);
             this.btnInserir.Name = "btnInserir";
-            this.btnInserir.Size = new System.Drawing.Size(121, 33);
+            this.btnInserir.Size = new System.Drawing.Size(139, 33);
             this.btnInserir.TabIndex = 10;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
@@ -244,7 +250,7 @@
             this.groupBox1.Controls.Add(this.rdbSim);
             this.groupBox1.Location = new System.Drawing.Point(27, 328);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(136, 37);
+            this.groupBox1.Size = new System.Drawing.Size(136, 51);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Folga";
@@ -282,7 +288,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 449);
+            this.label9.Location = new System.Drawing.Point(30, 464);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 13);
             this.label9.TabIndex = 23;
@@ -291,7 +297,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(225, 449);
+            this.label10.Location = new System.Drawing.Point(225, 464);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(92, 13);
             this.label10.TabIndex = 25;
@@ -374,11 +380,43 @@
             this.label11.TabIndex = 29;
             this.label11.Text = "Observação";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rdbJustNao);
+            this.groupBox2.Controls.Add(this.rdbJustSim);
+            this.groupBox2.Location = new System.Drawing.Point(27, 385);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(136, 52);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Justificado?";
+            // 
+            // rdbJustNao
+            // 
+            this.rdbJustNao.AutoSize = true;
+            this.rdbJustNao.Location = new System.Drawing.Point(84, 17);
+            this.rdbJustNao.Name = "rdbJustNao";
+            this.rdbJustNao.Size = new System.Drawing.Size(45, 17);
+            this.rdbJustNao.TabIndex = 1;
+            this.rdbJustNao.Text = "Não";
+            this.rdbJustNao.UseVisualStyleBackColor = true;
+            // 
+            // rdbJustSim
+            // 
+            this.rdbJustSim.AutoSize = true;
+            this.rdbJustSim.Location = new System.Drawing.Point(6, 17);
+            this.rdbJustSim.Name = "rdbJustSim";
+            this.rdbJustSim.Size = new System.Drawing.Size(42, 17);
+            this.rdbJustSim.TabIndex = 0;
+            this.rdbJustSim.Text = "Sim";
+            this.rdbJustSim.UseVisualStyleBackColor = true;
+            // 
             // FrmHoraFuncionarioAlterarCadastrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(812, 526);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtObs);
             this.Controls.Add(this.btnImprimir);
@@ -417,6 +455,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -458,5 +498,8 @@
         private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.TextBox txtObs;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton rdbJustNao;
+        private System.Windows.Forms.RadioButton rdbJustSim;
     }
 }

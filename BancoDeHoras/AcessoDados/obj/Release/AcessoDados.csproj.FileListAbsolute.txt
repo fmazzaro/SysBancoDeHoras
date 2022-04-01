@@ -3,3 +3,10 @@ C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoD
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.pdb
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.dll
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.dll.config
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\bin\Release\AcessoDados.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.csproj.AssemblyReference.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.csproj.CoreCompileInputs.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\AcessoDados\obj\Release\AcessoDados.pdb

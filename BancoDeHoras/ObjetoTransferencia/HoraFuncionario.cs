@@ -19,5 +19,6 @@ namespace ObjetoTransferencia
         public int qtdHora { get; set; }
         public int id_HF { get; set; }
         public int idfunc { get; set; }
+        public bool justificado { get; set; }
     }
 }

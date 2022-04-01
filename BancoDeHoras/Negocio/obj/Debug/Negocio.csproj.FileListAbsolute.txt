@@ -7,3 +7,15 @@ C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\bin\Debug\ObjetoTransfe
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.dll
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\Negocio.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\Negocio.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\AcessoDados.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\ObjetoTransferencia.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\AcessoDados.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\AcessoDados.dll.config
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Debug\Negocio.pdb

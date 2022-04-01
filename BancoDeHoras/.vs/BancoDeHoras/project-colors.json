@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9b4bac55-f484-4763-871f-df9687a31477": {
+      "ProjectGuid": "9b4bac55-f484-4763-871f-df9687a31477",
+      "DisplayName": "AcessoDados",
+      "ColorIndex": 0
+    },
+    "a3c10666-a42a-4be2-903a-804d6a29eb7e": {
+      "ProjectGuid": "a3c10666-a42a-4be2-903a-804d6a29eb7e",
+      "DisplayName": "Negocio",
+      "ColorIndex": 1
+    },
+    "e680b0bd-e2be-4960-8a59-7788a94f8ee2": {
+      "ProjectGuid": "e680b0bd-e2be-4960-8a59-7788a94f8ee2",
+      "DisplayName": "ObjetoTransferencia",
+      "ColorIndex": 2
+    },
+    "931ec53d-ddfd-4f5d-970c-d83015ff3991": {
+      "ProjectGuid": "931ec53d-ddfd-4f5d-970c-d83015ff3991",
+      "DisplayName": "Telas",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

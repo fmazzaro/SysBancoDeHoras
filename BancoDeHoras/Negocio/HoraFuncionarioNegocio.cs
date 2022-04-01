@@ -97,6 +97,7 @@ namespace Negocio
                 cmd.Parameters.AddWithValue("@horasUteis", horaFunc.qtdHora);
                 cmd.Parameters.AddWithValue("@folga", horaFunc.folga);
                 cmd.Parameters.AddWithValue("@obs", horaFunc.obs.ToUpper());
+                cmd.Parameters.AddWithValue("@justificado", horaFunc.justificado);
 
 
             cmd.CommandType = CommandType.StoredProcedure;
@@ -124,7 +125,7 @@ namespace Negocio
         public List<HoraFuncionario> GridCadastroHoras(DateTime dataInicio, DateTime fimDoMes, int idFunc)
         {
             _SQL = @"select 
-                    Id_HF, Id_Func, Data_Entrada,Entrada,Ida_Almoco,Volta_Almoco,Saida,Qtd_Hora_Util,Folga,observacao 
+                    Id_HF, Id_Func, Data_Entrada,Entrada,Ida_Almoco,Volta_Almoco,Saida,Qtd_Hora_Util,Folga,observacao, justificado  
                     from TblHoraFuncionario
                     where Id_Func = @idFunc and (Data_Entrada >= @dataInicio and Data_Entrada <= @fimDoMes)";
 
@@ -159,6 +160,7 @@ namespace Negocio
                 {
                     hf.obs = dr.GetString(9);
                 }
+                hf.justificado = dr.GetBoolean(10);
 
                 listaHoraFunc.Add(hf);
             }
@@ -247,6 +249,7 @@ namespace Negocio
             cmd.Parameters.AddWithValue("@horasUteis", hf.qtdHora);
             cmd.Parameters.AddWithValue("@folga", hf.folga);
             cmd.Parameters.AddWithValue("@obs", hf.obs.ToUpper());
+            cmd.Parameters.AddWithValue("@justificado", hf.justificado);
 
             cmd.CommandType = CommandType.StoredProcedure;
 
@@ -277,7 +280,7 @@ namespace Negocio
         public List<HoraFuncionario> CarregarGridBotaoNaTela(string nomeMes, int idFunc, int ano)
         {
             _SQL = @"select 
-                    Id_HF, Id_Func, Data_Entrada,Entrada,Ida_Almoco,Volta_Almoco,Saida,Qtd_Hora_Util,Folga, observacao
+                    Id_HF, Id_Func, Data_Entrada,Entrada,Ida_Almoco,Volta_Almoco,Saida,Qtd_Hora_Util,Folga, observacao, Justificado 
                     from TblHoraFuncionario
                     where Id_Func = @idFunc and DATENAME(MONTH,Data_Entrada) = @nomeMes and DATENAME(YEAR,Data_Entrada) = @ano
                     ORDER BY Data_Entrada";
@@ -315,6 +318,7 @@ namespace Negocio
                 {
                     hf.obs = dr.GetString(9);
                 }
+                hf.justificado = dr.GetBoolean(10);
                 
                 listaHoraFunc.Add(hf);
             }

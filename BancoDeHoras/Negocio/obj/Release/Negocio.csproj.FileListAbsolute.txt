@@ -7,3 +7,15 @@ C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\bin\Release\ObjetoTrans
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.dll
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\Negocio.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\Negocio.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\AcessoDados.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\ObjetoTransferencia.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\AcessoDados.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\AcessoDados.dll.config
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\bin\Release\ObjetoTransferencia.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.csproj.AssemblyReference.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.csproj.CopyComplete
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\Negocio\obj\Release\Negocio.pdb

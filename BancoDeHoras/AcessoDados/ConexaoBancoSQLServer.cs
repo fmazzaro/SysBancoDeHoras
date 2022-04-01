@@ -25,9 +25,9 @@ namespace AcessoDados
             */
 
             SqlConnectionStringBuilder sb = new SqlConnectionStringBuilder();
-            sb.UserID = "SeuUsuarioNoBanco";
-            sb.Password = "SuaSenhaNoBanco";
-            sb.DataSource = "db-luciano.database.windows.net";
+            sb.UserID = "sa";
+            sb.Password = "sql.2008*std";
+            sb.DataSource = "server1";
             sb.InitialCatalog = "DB_BANCO_DE_HORAS";
 
             SqlConnection cn = new SqlConnection(sb.ConnectionString);

@@ -28,7 +28,7 @@ namespace FrmPrincipal
 
                 if (logado)
                 {
-                    MessageBox.Show("Bem vindo ao sistema");
+                    //MessageBox.Show("Bem vindo ao sistema");
                     FrmPrincipal frmPrincipal = new FrmPrincipal();
                     frmPrincipal.ShowDialog();
                     Close();
@@ -56,7 +56,7 @@ namespace FrmPrincipal
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-            txtLogin.Text = ".papoula";
+            txtLogin.Text = "Aline";
             
         }
     }

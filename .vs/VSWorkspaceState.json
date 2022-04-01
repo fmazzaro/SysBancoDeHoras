@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BancoDeDados",
+    "\\BancoDeHoras",
+    "\\BancoDeHoras\\FrmPrincipal",
+    "\\BancoDeHoras\\Negocio"
+  ],
+  "SelectedNode": "\\BancoDeHoras\\FrmPrincipal\\FrmHoraFuncionarioAlterarCadastrarExcluir.cs",
+  "PreviewInSolutionExplorer": false
+}

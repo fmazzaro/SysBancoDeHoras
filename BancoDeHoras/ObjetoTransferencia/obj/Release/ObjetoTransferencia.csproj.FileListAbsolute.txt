@@ -3,3 +3,8 @@ C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\bin\Release
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.csprojResolveAssemblyReference.cache
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.dll
 C:\Users\lucia\Desktop\BancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\ObjetoTransferencia\bin\Release\ObjetoTransferencia.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\ObjetoTransferencia\bin\Release\ObjetoTransferencia.pdb
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.csproj.CoreCompileInputs.cache
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.dll
+C:\Users\fmazzaro\Source\Repos\SysBancoDeHoras\BancoDeHoras\ObjetoTransferencia\obj\Release\ObjetoTransferencia.pdb

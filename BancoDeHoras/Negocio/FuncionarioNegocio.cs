@@ -29,8 +29,8 @@ namespace Negocio
             cmd.Parameters.AddWithValue("@sexo", funcionario.sexo.ToUpper());
             cmd.Parameters.AddWithValue("@funcao", funcionario.funcao.ToUpper());
 
-            if(funcionario.id_Gerente.ToString() != "")
-                cmd.Parameters.AddWithValue("@IdGerente", funcionario.id_Gerente);
+            //if(funcionario.id_Gerente.ToString() != "")
+                cmd.Parameters.AddWithValue("@IdGerente", 0);
 
             cmd.Parameters.AddWithValue("@idLoja", funcionario.id_Loja);
             cmd.Parameters.AddWithValue("@dataContrato", funcionario.dataContrato);

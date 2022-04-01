@@ -128,7 +128,6 @@
             this.cmbGerente.Name = "cmbGerente";
             this.cmbGerente.Size = new System.Drawing.Size(189, 21);
             this.cmbGerente.TabIndex = 6;
-            this.cmbGerente.Click += new System.EventHandler(this.cmbGerente_Click);
             // 
             // label1
             // 
